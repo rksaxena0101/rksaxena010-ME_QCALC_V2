@@ -13,8 +13,6 @@ public class StandardCalculatorTest {
         standardCalculator = new StandardCalculator();
     }
 
-
-
     @Test
     @DisplayName("Test Addition of Two Doubles")
     void testAdditionOperationForDoubles(){
@@ -47,7 +45,6 @@ public class StandardCalculatorTest {
         double actualResult = standardCalculator.getResult();
         Assertions.assertEquals(0, actualResult);
     }
-
     
     @Test
     @DisplayName("Test Multiplication of Two Doubles")
