@@ -14,11 +14,21 @@ public class QcalcApplication {
         //System.out.println(calc.getResult());
 		//calc.add(Double.MAX_VALUE, 1.0);
 		//calc.printResult();
-
-		calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
-
+		//calc.multiply(1.1, 1.2);
+		//calc.printResult();
+		calc.divide(1,0);
 		calc.printResult();
 
+		//calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
+
+		//calc.printResult();
+
+		//LogicCalculator calc = new LogicCalculator();
+
+		//calc.OR(8, 6);
+		//calc.printResult();
+		//calc.AND(8, 6);
+		//calc.printResult();
 
 	}
 
